@@ -25,6 +25,7 @@ const DesignPreview: React.FC = () => {
     document.body.appendChild(link);
     link.click();
     document.body.removeChild(link);
+    
   };
 
   const handleCopyLink = async () => {
