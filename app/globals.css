@@ -25,3 +25,21 @@ body {
     text-wrap: balance;
   }
 }
+
+@keyframes lineGrow {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
+@keyframes bounce {
+  0% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(-10px);
+  }
+}
